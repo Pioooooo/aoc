@@ -1,2 +1,3 @@
 shopt -s extglob
-rm */*.out|!(*.*|in) &> /dev/null
+rm */!(*.*|in) &> /dev/null
+rm */*.out &> /dev/null
