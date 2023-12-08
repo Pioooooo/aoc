@@ -1,2 +1,6 @@
 */*
 !*.cpp
+!.devcontainer
+!.devcontainer/**/*
+!.vscode
+!.vscode/**/*
