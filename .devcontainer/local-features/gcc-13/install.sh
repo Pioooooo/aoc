@@ -11,3 +11,5 @@ mkdir -p ${_REMOTE_USER_HOME}/.config/gdb &&
 		register_libstdcxx_printers (None)
 		end
 	EOF
+
+echo "alias g++='g++ -std=c++23'" >>${_REMOTE_USER_HOME}/.bashrc
